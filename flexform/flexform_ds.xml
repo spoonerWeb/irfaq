@@ -16,22 +16,22 @@
 							<config>
 								<type>select</type>
 								<items type="array">
-								<numIndex index="0" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_dynamic</numIndex>
-									<numIndex index="1">DYNAMIC</numIndex>
-								</numIndex>
-								<numIndex index="1" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_static</numIndex>
-									<numIndex index="1">STATIC</numIndex>
-								</numIndex>
-								<numIndex index="2" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_static_separate</numIndex>
-									<numIndex index="1">STATIC_SEPARATE</numIndex>
-								</numIndex>
-								<numIndex index="3" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_search</numIndex>
-									<numIndex index="1">SEARCH</numIndex>
-								</numIndex>
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_dynamic</numIndex>
+										<numIndex index="1">DYNAMIC</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_static</numIndex>
+										<numIndex index="1">STATIC</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_static_separate</numIndex>
+										<numIndex index="1">STATIC_SEPARATE</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.view_search</numIndex>
+										<numIndex index="1">SEARCH</numIndex>
+									</numIndex>
 								</items>
 								<maxitems>100</maxitems>
 								<size>4</size>
@@ -47,26 +47,26 @@
 							<config>
 								<type>select</type>
 								<items type="array">
-								<numIndex index="0" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_ts</numIndex>
-									<numIndex index="1">ts</numIndex>
-								</numIndex>
-								<numIndex index="1" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_sorting</numIndex>
-									<numIndex index="1">sorting</numIndex>
-								</numIndex>
-								<numIndex index="2" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_q</numIndex>
-									<numIndex index="1">q</numIndex>
-								</numIndex>
-								<numIndex index="3" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_q_from</numIndex>
-									<numIndex index="1">q_from</numIndex>
-								</numIndex>
-								<numIndex index="4" type="array">
-									<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_expert</numIndex>
-									<numIndex index="1">expert</numIndex>
-								</numIndex>
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_ts</numIndex>
+										<numIndex index="1">ts</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_sorting</numIndex>
+										<numIndex index="1">sorting</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_q</numIndex>
+										<numIndex index="1">q</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_q_from</numIndex>
+										<numIndex index="1">q_from</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.sorting_expert</numIndex>
+										<numIndex index="1">expert</numIndex>
+									</numIndex>
 								</items>
 								<maxitems>1</maxitems>
 								<size>1</size>
@@ -76,22 +76,22 @@
 					</sorting>
 					<pages>
 						<TCEforms>
-						<exclude>1</exclude>
-						<label>LLL:EXT:lang/locallang_general.php:LGL.startingpoint</label>
-						<config>
-							<type>group</type>
-							<internal_type>db</internal_type>
-							<allowed>pages</allowed>
-							<size>3</size>
-							<maxitems>22</maxitems>
-							<minitems>0</minitems>
-							<show_thumbs>1</show_thumbs>
-						</config>
+							<exclude>1</exclude>
+							<label>LLL:EXT:lang/locallang_general.php:LGL.startingpoint</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>3</size>
+								<maxitems>22</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
 						</TCEforms>
 					</pages>
 					<recursive>
 						<TCEforms>
-						<label>LLL:EXT:lang/locallang_general.php:LGL.recursive</label>
+							<label>LLL:EXT:lang/locallang_general.php:LGL.recursive</label>
 							<config>
 								<type>select</type>
 								<items type="array">
@@ -167,7 +167,7 @@
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 									<numIndex index="2" type="array">
-										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.category_selection_DontShowSelected</numIndex>
+										<numIndex index="0">LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.</numIndex>
 										<numIndex index="1">-1</numIndex>
 									</numIndex>
 								</items>
@@ -224,31 +224,31 @@
 				<el>
 					<searchPid>
 						<TCEforms>
-						<exclude>1</exclude>
-						<label>LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.searchPid</label>
-						<config>
-							<type>group</type>
-							<internal_type>db</internal_type>
-							<allowed>pages</allowed>
-							<size>1</size>
-							<maxitems>1</maxitems>
-							<minitems>0</minitems>
-							<show_thumbs>1</show_thumbs>
-						</config>
+							<exclude>1</exclude>
+							<label>LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.searchPid</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
 						</TCEforms>
 					</searchPid>
 					<emptySearchAtStart>
 						<TCEforms>
-						<label>LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.emptySearchAtStart</label>
-						<config>
-							<type>check</type>
-							<items type="array">
-								<numIndex index="0" type="array">
-									<numIndex index="0"></numIndex>
-									<numIndex index="1">1</numIndex>
-								</numIndex>
-							</items>
-						</config>
+							<label>LLL:EXT:irfaq/lang/locallang_db.xml:tx_irfaq.pi_flexform.emptySearchAtStart</label>
+							<config>
+								<type>check</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
 						</TCEforms>
 					</emptySearchAtStart>
 				</el>

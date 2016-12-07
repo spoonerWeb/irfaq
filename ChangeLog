@@ -1,8 +1,30 @@
-2014-03-19 v1.3.0 Klaus Bitto <klaus@netcreators.nl>
+
+2016-10-03 v1.5.2 Leonie Philine Bitto <leonie@netcreators.nl>
+
+	* Reformatted according to PSR-2.
+
+2016-10-03 v1.5.1 Leonie Philine Bitto <leonie@netcreators.nl>
+
+	* Replaced PHP4-style "var" property declarations by "protected"/"public" accordingly.
+	* Added missing semicolon in res/toggleFaq.js.
+	* Using getLanguageService() rather than global $LANG in accordance with TYPO3 coding style.
+	* Removed superfluous 'px' from '0px' CSS values.
+	* Removed closing PHP tags at the end of code-only PHP files.
+
+2016-09-29 v1.5.0 Tania Morales <tania@netcreators.nl>
+
+	* Compatibility for TYPO3 7.6
+
+2015-05-14 v1.4.0 Leonie Philine Bitto <leonie@netcreators.nl>
+
+	* Completed migration to TYPO3 6.2, removing all deprecated calls.
+	* Minor code cleanup.
+
+2014-03-19 v1.3.0 Leonie Philine Bitto <leonie@netcreators.nl>
 
 	* Compatibility with TYPO3 6.2.
 
-2014-03-14 v1.2.1 Klaus Bitto <klaus@netcreators.nl>
+2014-03-14 v1.2.1 Leonie Philine Bitto <leonie@netcreators.nl>
 
 	* Made irfaq records searchable in the TYPO3 Backend (by defining TCA ctrl 'searchFields').
 	* Marked as compatible up to TYPO3 6.1.

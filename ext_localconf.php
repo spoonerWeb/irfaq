@@ -1,15 +1,23 @@
 <?php
-if (!defined ('TYPO3_MODE')) 	die ('Access denied.');
-t3lib_extMgm::addUserTSConfig('options.saveDocNew.tx_irfaq_q=1');
-t3lib_extMgm::addUserTSConfig('options.saveDocNew.tx_irfaq_cat=1');
-t3lib_extMgm::addUserTSConfig('options.saveDocNew.tx_irfaq_expert=1');
+if (!defined('TYPO3_MODE')) {
+    die ('Access denied.');
+}
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('options.saveDocNew.tx_irfaq_q=1');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('options.saveDocNew.tx_irfaq_cat=1');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('options.saveDocNew.tx_irfaq_expert=1');
 
-t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_irfaq_pi1.php', '_pi1', 'list_type', 1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPItoST43(
+    $_EXTKEY,
+    'pi1/class.tx_irfaq_pi1.php',
+    '_pi1',
+    'list_type',
+    1
+);
 
 //listing FAQ in Web->Page view
 $TYPO3_CONF_VARS['EXTCONF']['cms']['db_layout']['addTables']['tx_irfaq_q'][0] = array(
-	'fList' => 'q,a,q_from,expert',
-	'icon' => TRUE
+    'fList' => 'q,a,q_from,expert',
+    'icon' => true
 );
 
 // TCEmain hooks for managing related entries
@@ -22,4 +30,3 @@ $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['comments']['closeCommentsAfter'][$_EXTKE
 // Page module hook
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['cms/layout/class.tx_cms_layout.php']['list_type_Info']['irfaq_pi1'][] = 'EXT:irfaq/class.tx_irfaq_cms_layout.php:tx_irfaq_cms_layout->getExtensionSummary';
 
-?>
